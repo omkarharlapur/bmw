@@ -6,7 +6,7 @@ export default function Home(){
                 <img src="/bmwMain.jpg" alt="" />
             </div>
                <div className="backgroundImage">
-                <img src="/public/pexels-audrius-strikaitis-31613974-10903097.jpg" alt="" />
+                <img src="/pexels-audrius-strikaitis-31613974-10903097.jpg" alt="" />
             </div>
             
         </div>
