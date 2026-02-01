@@ -4,9 +4,38 @@
     box-sizing: border-box;
 }
 
-.backgroundImage img{
-    width: 100%;
-    height: 100vh;
+.intro-video video{
+    width: 100vw;
+    height: 100%;
     object-fit: cover;
+    display: block;
+}
 
+.divider{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider h1{
+    color: rgb(55, 55, 59);
+    font-family: 'michroma';
+}
+
+.exp-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   gap:40px;
+   padding:70px;
+}
+
+
+
+
+.exp-card video{
+    display: block;
+     
+    
 }
